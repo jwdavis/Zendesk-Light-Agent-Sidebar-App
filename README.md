@@ -7,7 +7,7 @@ OVERVIEW
 DEPLOYMENT
 
 - Compress all source files into a ZIP file
-- Visit https://jwdavis.zendesk.com/agent/admin/apps/manage
+- Visit https://yourdomain.zendesk.com/agent/admin/apps/manage
 - Click on Upload private app
 - Enter a name for the app; e.g. Light Agent Sidebar
 - Click Choose File and select your ZIP file
@@ -24,7 +24,7 @@ USE
 
 API CONFIG
 
-- If you haven't already, visit https://jwdavis.zendesk.com/agent/admin/api and enable Token Access
+- If you haven't already, visit https://yourdomain.zendesk.com/agent/admin/api and enable Token Access
 - Click add new token and give the token a name
 - Create a credentials string comprised of an dedicated account for API access, along with the token; e.g. zd_api@yourdomain.com/token:dVEHKfNCzmHhTRars8FmAqNycuJmgxPGRxVZRdbl
 - Base64 encode the entire credentials string and enter; you will use this in the credentials field in sidebar app settings. It will look like this: emRfYXBpQHlvdXJkb21haW4uY29tL3Rva2VuOmRWRUhLZk5Dem1IaFRSYXJzOEZtQXFOeWN1Sm1neFBHUnhWWlJkYmw=. I use the python interpreter on my Mac to do the encoding.

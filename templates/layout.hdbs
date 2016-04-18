@@ -1,0 +1,6 @@
+<link rel="stylesheet" type="text/css" href="//cloud.typography.com/8000432/780966/css/fonts.css" />
+<header class="header">
+  <span class="logo"/>
+  <h3>{{setting "name"}}</h3>
+</header>
+<section data-main class="data-main"/>

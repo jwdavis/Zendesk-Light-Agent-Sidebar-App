@@ -1,0 +1,28 @@
+{
+  "name": "Light Agent Sidebar",
+  "author": {
+    "name": "Jeff Davis",
+    "email": "github@jwdavis.me"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": ["ticket_sidebar"],
+  "version": "0.1",
+  "frameworkVersion": "1.0",
+  "parameters": [
+    {
+      "name": "subdomain",
+      "type": "text",
+      "required": true,
+      "secure": false,
+      "default": "your_subdomain_here"
+    },
+
+    {
+      "name": "credentials",
+      "type": "password",
+      "required": true,
+      "secure": true
+    }
+  ]
+}

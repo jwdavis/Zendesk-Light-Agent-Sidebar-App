@@ -1,0 +1,44 @@
+<div>
+
+  <div>
+
+    <div>
+      <label class='sidebar-label'>Subject: </label>
+      <span>
+        <input type="text" id="ticket-subject" class="entry-field">
+      </span> 
+    </div>
+
+    <div>
+      <label class='sidebar-label'>Add to cc: </label>
+      <span>
+        <input type="text" id="cc-add" class="entry-field">
+      </span> 
+    </div>
+
+    <div class="cc-quick-action">
+      <span class='addmecc' id='addmecc'>Add me</span>
+      <span> | </span>
+      <span class='removemecc' id='removemecc'>Remove me</span>
+    </div>
+
+  </div>
+
+  <div class="checkbox-area">
+
+    <div class="checkbox">
+      <input type="checkbox" id="custom_field_31865117"> Engineering Action Pending
+    </div>
+
+    <div class="checkbox">
+      <input type="checkbox" id="custom_field_31833198" style='vertical-align:top'><span style='vertical-align:top'>Fully Characterized in JIRA</span>
+    </div>
+
+  </div>
+
+
+  <div class="ui-helper-clearfix"></div>
+  <div>
+    <div class='update' id ='update'>Update Ticket</div>
+  </div>
+</div>
